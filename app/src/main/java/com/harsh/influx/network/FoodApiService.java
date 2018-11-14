@@ -8,5 +8,6 @@ import retrofit2.http.GET;
 public interface FoodApiService {
 
     @GET("v2/5b700cff2e00005c009365cf")
+//    @GET("/foods")
     Call<JsonObject> fetchFood();
 }

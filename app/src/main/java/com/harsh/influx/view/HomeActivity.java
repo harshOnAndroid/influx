@@ -96,7 +96,7 @@ public class HomeActivity extends AppCompatActivity {
 
     }
 
-    private Double getTotal(List<FoodItem> items) {
+     Double getTotal(List<FoodItem> items) {
 
             double price = 0.0;
 

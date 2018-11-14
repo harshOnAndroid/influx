@@ -34,6 +34,7 @@ public class HomeDataRepository {
         Retrofit retrofit = new Retrofit.Builder()
                 .addConverterFactory(GsonConverterFactory.create())
                 .baseUrl("http://www.mocky.io/").build();
+//                .ibaseUrl("http://demo8801737.mockable.io").build();
 
         FoodApiService apiService = retrofit.create(FoodApiService.class);
 
